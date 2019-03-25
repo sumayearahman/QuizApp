@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/city"
+    tools:context=".StartActivity">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Capital Quiz"
+        android:textSize="45dp"
+        android:textColor="#13367c"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/all"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="140dp"
+        android:text="All"
+        android:textSize="25dp"
+        android:textColor="#890780"
+        android:background="#6de1a1"
+        android:onClick="startQuiz"/>
+    <!--<Button-->
+        android:id="@+id/asia"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Asia"
+        android:textSize="25dp"
+        android:textColor="#890780"
+        android:background="#7d9dba"
+        android:onClick="startQuiz"/>
+    <!--<Button-->
+        android:id="@+id/america"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="America"
+        android:textSize="22dp"
+        android:textColor="#890780"
+        android:background="#7d9dba"
+        android:onClick="startQuiz"/>
+    <!--<Button-->
+        android:id="@+id/europe"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Europe"
+        android:textSize="22dp"
+        android:textColor="#890780"
+        android:background="#7d9dba"
+        android:onClick="startQuiz"/>
+
+</LinearLayout>

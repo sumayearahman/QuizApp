@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/city"
+    android:gravity="center_horizontal"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Result :"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#890780"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="3/5"
+        android:textSize="40dp"
+        android:textColor="#890780"/>
+    <TextView
+        android:id="@+id/totalScorelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Total score : 5"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#040b41"/>
+    <Button
+        android:id="@+id/returnTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Return"
+        android:textSize="20dp"
+        android:textColor="#890780"
+        android:background="#74e6a7"
+        />
+
+    <!--<Button-->
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Reset"
+        android:textSize="20dp"
+        android:textColor="#890780"
+        android:background="#6de1a1"
+        />
+
+</LinearLayout>
